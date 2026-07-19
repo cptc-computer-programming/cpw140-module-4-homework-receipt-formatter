@@ -25,8 +25,8 @@ This assignment gives you practice with:
    - item category
    - quantity
    - price per item
-4. Print one receipt line for each item.
-5. Print the receipt subtotal, tax, and total **after** all items have been entered.
+4. Store one receipt line for each item.
+5. Print the receipt line items, subtotal, tax, and total **after** all items have been entered.
 
 Use this tax rate:
 
@@ -44,9 +44,8 @@ Your solution should use:
 - `Scanner`
 - a loop
 - `String` object methods
-- methods with parameters
-- at least one method with a return value
-- a cumulative variable for the receipt subtotal
+- methods with parameters and return values
+- a cumulative `String` variable for the receipt subtotal
 - `printf` for money formatting
 
 ---
@@ -127,7 +126,7 @@ Total: $14.61
 
 ##  Method Organization
 
-You may choose your own method names, but your program should be organized into helper methods.
+Your program should be organized into helper methods.
 
 A short `main` might look as simple this:
 
